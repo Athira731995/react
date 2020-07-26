@@ -13,7 +13,7 @@ function App() {
      <Greet name="Minna" heroName="Ajith"><button>hihi</button></Greet>
      <Greet name="Ammmu" heroName="Ajithkumar"/>
 
-     <Welcome/>
+     <Welcome name="Sushant"/>
      <Hello />
     </div>
   );

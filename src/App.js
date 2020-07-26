@@ -9,7 +9,10 @@ function App() {
   return (
     <div className="App">
      {/* <Greet></Greet> */}
-     <Greet/>
+     <Greet name="Athi"/>
+     <Greet name="Minna"/>
+     <Greet name="Ammmu"/>
+
      <Welcome/>
      <Hello />
     </div>

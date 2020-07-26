@@ -4,6 +4,11 @@ import React from 'react'
 // }
 
 //since we prefer arrow functions
-export const Greet=()=>      <h1> hhhhhhhhello minnu beeee</h1>
+//we usually use the name props here
+export const Greet=(props)=>   {
+
+    console.log(props)
+     return <h1> hhhhhhhhello {props.name}</h1>
+}
 
 export default Greet

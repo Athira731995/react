@@ -8,7 +8,13 @@ import React from 'react'
 export const Greet=(props)=>   {
 
     console.log(props)
-     return <h1> hhhhhhhhello {props.name}</h1>
+    //can return only a single element
+return (<div><h1> hhhhhhhhello {props.name},{props.heroName}
+</h1>
+{props.children}
+
+</div>)
 }
+
 
 export default Greet

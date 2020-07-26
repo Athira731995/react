@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
      {/* <Greet></Greet> */}
-     <Greet name="Athi"/>
-     <Greet name="Minna"/>
-     <Greet name="Ammmu"/>
+     <Greet name="Athi" heroName="Ajith">This is childern props</Greet>
+     <Greet name="Minna" heroName="Ajith"><button>hihi</button></Greet>
+     <Greet name="Ammmu" heroName="Ajithkumar"/>
 
      <Welcome/>
      <Hello />
